@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio BTS SIO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur mon Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="profil.html">Profil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="#bts-sio">BTS SIO</a></li>
+                <li><a href="ppe.html">Projets</a></li>
+                <li><a href="veille.html">Veille</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="presentation">
+        <h2>Présentation</h2>
+        <p>Nom : [HENRY D'joston]</p>
+        <p>Classe : BTS SIO - <div SLAM=""></div></p>
+        <p>Parcours scolaire et professionnel : [Détails]</p>
+        <p><a href="Mon CV.pdf" target="_blank">Télécharger mon CV</a></p>
+        <p><a href="https://[votre-profil]" target="_blank">Mon profil</a></p>
+    </section>
+
+    <section id="bts-sio">
+        <h2>Présentation du BTS SIO</h2>
+        <p>[Explication du BTS SIO et de ses options]</p>
+    </section>
+
+    <section id="ppe">
+        <h2>Projets Personnalisés Encadrés (PPE)</h2>
+        <ul>
+            <li><a href="projet1.html">PPE 1: [Titre du Projet]</a></li>
+            <li><a href="projet2.html">PPE 2: [Titre du Projet]</a></li>
+        </ul>
+    </section>
+
+    <section id="veille">
+        <h2>Veille technologique</h2>
+        <p>La veille informatique consiste à surveiller 
+            et analyser en permanence les informations stratégiques liées aux technologies de l'information et
+         de la communication. 
+         Son but est d'anticiper les évolutions du marché
+          et de se tenir informé des nouvelles tendances dans le domaine de l'informatique.</p>
+    </section>
+
+    <section id="competences">
+        <h2>Tableau de compétences</h2>
+        <ul>
+            <li>Compétence 1 : [Détails]</li>
+            <li>Compétence 2 : [Détails]</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="send_email.php" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 [HENRY]</p>
+    </footer>
+</body>
+</html>
